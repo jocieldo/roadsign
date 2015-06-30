@@ -1,0 +1,124 @@
+html, body, a, i, p, span, div, ul, li{margin: 0; padding: 0}
+html, body{
+	font: normal 14px/22px Arial,"Microsoft YaHei";
+	color: #323232;
+	min-height: 100%;
+	margin: 0 auto;
+}
+body{background-color: #ecedf2;}
+a{text-decoration: none; color: #323232;}
+.text-right{text-align: right;}
+.text-center{text-align: center;}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.container {
+    margin-right: auto; margin-left: auto
+}
+.row{
+	display: block;
+}
+.row:before, .row:after{
+	display: table; content: ""; clear:both;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    float:left; position: relative;
+    min-height: 1px;
+    padding-right: 5px; padding-left: 5px
+}
+.col-12{width:100%}
+.col-11{width:91.66666666666666%}
+.col-10{width:83.33333333333334%}
+.col-9{width:75%}
+.col-8{width:66.66666666666666%}
+.col-7{width:58.333333333333336%}
+.col-6{width:50%}
+.col-5{width:41.66666666666667%}
+.col-4{width:33.33333333333333%}
+.col-3{width:25%}
+.col-2{width:16.666666666666664%}
+.col-1{width:8.333333333333332%}
+
+.app-box{width: 100%; height: 100%; position: relative;}
+.header{background: #EC6A6A; height: 40px; line-height: 40px; color: #fff;}
+.header .logo{
+	display: inline-block; height: 40px;  font-size: 20px;
+	padding-left: 10px; padding-right: 10px; vertical-align: middle;
+	font-weight: bold; text-shadow: 1px 1px 5px #000;
+}
+.header .menu{display: inline-block; margin-left: 10px; font-size: 16px;}
+.header .menu a{padding: 5px; border: 1px #EC6A6A solid; color:#fff;}
+.header .menu a:hover{border: 1px #fff solid; cursor: pointer;}
+.header .menu span{padding: 5px; border: 1px #EC6A6A solid;}
+.header .menu span i{margin-right: 2px;}
+.header .menu span:hover{border: 1px #fff solid; cursor: pointer;}
+
+.header .menu .upfile{
+	overflow: hidden;
+	position: relative;
+}
+.header .menu .upfile input {
+	position: absolute;
+    font-size: 20px;
+  	width: 70px;
+    right: 0; top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.playground{background: #ddd; position: relative;}
+.func-area{}
+#editor{
+	position: absolute; cursor: default;
+  	top: 40px; left: 70px;
+}
+
+
+#view { position: relative;}
+
+/* tool bar */
+#toolbar{position: absolute; left: 0px; top: 29px; 
+	width: 57px; height: 500px; border: 1px #ccc solid;
+	text-align: center; padding: 5px; background-color: #fff;
+}
+#toolbar .plugin-element-item{
+	width: 45px; height: 45px; font-size: 28px; line-height: 38px; 
+}
+
+/* current target */
+#curTarget{position: absolute; left: 0px; top: 0px; 
+	width: 100%; height: 30px; line-height: 20px; border: 1px #ccc solid;
+	padding-top: 2px; padding-left: 10px;  background-color: rgba(255, 255, 255, 0.5);
+}
+#curTarget span{display: inline-block; vertical-align: middle;}
+#curTarget .name{width: 100px; text-align: center;}
+#curTarget .property{width: 400px; padding-left: 20px; border-left: 1px #e0e0e0 solid; border-right: 1px #e0e0e0 solid; margin-right: 10px;}
+#curTarget .property p{
+	display: inline-block; width: 78px; 
+	margin-right: 15px; color: #888; vertical-align: middle;
+	overflow: hidden; word-break: break-all; white-space: nowrap;
+}
+#curTarget .align{font-size: 20px; padding-left: 10px; color: #333;}
+#curTarget .align i{margin-right: 5px;}
+#curTarget .align i:hover{color: red; cursor: pointer;}
+/* component panel */
+#comPanel .plugin-element-item{
+	width: 100px; height: 69px; margin-right: 5px;
+}
+
+#propertyPanel input{
+	border: 1px #ccc solid; width: 170px; text-indent: 5px;
+}
+#propertyPanel p span{display: inline-block; width: 130px; overflow: hidden; white-space: nowrap; font-weight: bold;}
+
+#json-editor{width: 500px; height: 500px; border: 1px #ccc solid; font-size: 14px;}
+.json-editor-footer{padding: 10px;}
+.json-editor-footer .btn{
+	display: inline-block; background: red; cursor: pointer;
+	color: #fff; padding: 5px 15px; border-radius: 4px; margin-right: 10px;
+}
+

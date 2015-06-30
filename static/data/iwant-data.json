@@ -1,0 +1,322 @@
+﻿{
+	"data": [
+		{
+			"name": "吃",
+			"icon": "icon-spoon-knife",
+			"catalog": "A00001",
+			"list": [
+				{
+					"name": "火锅",
+					"catalog": "B000000001",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "烧烤",
+					"catalog": "B000000002",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "川菜",
+					"catalog": "B000000003",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "自助餐",
+					"catalog": "B000000004",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "烤鱼",
+					"catalog": "B000000005",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "快餐",
+					"catalog": "B000000006",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "西餐",
+					"catalog": "B000000007",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "韩国料理",
+					"catalog": "B000000008",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "日本料理",
+					"catalog": "B000000009",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "东南亚料理",
+					"catalog": "B000000010",
+					"template": "tpl01.html"
+				}
+			]
+		},
+		{
+			"name": "玩",
+			"icon": "icon-glass2",
+			"catalog": "A00001",
+			"list": [
+				{
+					"name": "KTV",
+					"catalog": "A0000100001",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "夜总会",
+					"catalog": "A0000100002",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "酒吧",
+					"catalog": "A0000100003",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "咖啡厅",
+					"catalog": "A0000100004",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "洗浴",
+					"catalog": "A0000100005",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "按摩",
+					"catalog": "A0000100006",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "足浴",
+					"catalog": "A0000100007",
+					"template": "tpl01.html"
+				}
+			]
+		},
+		{
+			"name": "票",
+			"icon": "icon-ticket2",
+			"catalog": "A00002",
+			"list": [
+				{
+					"name": "电影票",
+					"catalog": "B000000011",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "彩票",
+					"catalog": "B000000012",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "机票",
+					"catalog": "B000000013",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "汽车票",
+					"catalog": "B000000014",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "话剧票",
+					"catalog": "B000000015",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "演唱会门票",
+					"catalog": "B000000016",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "音乐会门票",
+					"catalog": "B000000017",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "景点门票",
+					"catalog": "B000000018",
+					"template": "tpl01.html"
+				}
+			]
+		},
+		{
+			"name": "美",
+			"icon": "icon-face-unlock",
+			"catalog": "A00001",
+			"list": [
+				{
+					"name": "美发",
+					"catalog": "A0000100001",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "美容",
+					"catalog": "A0000100002",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "美甲",
+					"catalog": "A0000100003",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "养生spa",
+					"catalog": "A0000100004",
+					"template": "tpl01.html"
+				}
+			]
+		},
+		{
+			"name": "出行",
+			"icon": "icon-aircraft",
+			"catalog": "A00001",
+			"list": [
+				{
+					"name": "酒店",
+					"catalog": "A0000100001",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "度假村",
+					"catalog": "A0000100001",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "农家院",
+					"catalog": "A0000100001",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "机票",
+					"catalog": "B000000013",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "景点门票",
+					"catalog": "B000000018",
+					"template": "tpl01.html"
+				}
+			]
+		},
+		{
+			"name": "运动",
+			"icon": "icon-directions-walk",
+			"catalog": "A00001",
+			"list": [
+				{
+					"name": "健身房",
+					"catalog": "A0000100001",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "篮球馆",
+					"catalog": "A0000100002",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "羽毛球馆",
+					"catalog": "A0000100003",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "游泳馆",
+					"catalog": "A0000100004",
+					"template": "tpl01.html"
+				}
+			]
+		},
+		{
+			"name": "家政",
+			"icon": "icon-local-florist",
+			"catalog": "A00001",
+			"list": [
+				{
+					"name": "保洁",
+					"catalog": "A0000100001",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "桶装水",
+					"catalog": "A0000100002",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "维修家电",
+					"catalog": "A0000100003",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "东南亚料理",
+					"catalog": "A0000100010",
+					"template": "tpl01.html"
+				}
+			]
+		},
+		{
+			"name": "汽车",
+			"icon": "icon-directions-car",
+			"catalog": "A00001",
+			"list": [
+				{
+					"name": "洗车",
+					"catalog": "A0000100001",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "修车",
+					"catalog": "A0000100002",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "汽车美容",
+					"catalog": "A0000100003",
+					"template": "tpl01.html"
+				}
+			]
+		},
+		{
+			"name": "培训",
+			"icon": "icon-school",
+			"catalog": "A00001",
+			"list": [
+				{
+					"name": "技能培训",
+					"catalog": "A0000100001",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "技术培训",
+					"catalog": "A0000100002",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "语言培训",
+					"catalog": "A0000100003",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "职业培训",
+					"catalog": "A0000100004",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "考试培训",
+					"catalog": "A0000100005",
+					"template": "tpl01.html"
+				},
+				{
+					"name": "体育培训",
+					"catalog": "A0000100006",
+					"template": "tpl01.html"
+				}
+			]
+		}
+	]
+}

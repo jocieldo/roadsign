@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8"/>
+
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+	    <meta name="keywords" content="my life"/>
+	    <meta name="description" content="my life" />
+    	<title>Road Sign Editor</title>
+
+</head>
+
+<body>
+	<div id="view">
+	</div>
+
+	
+	<script type="text/javascript">
+		var root = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+		root.setAttribute("version","1.2");// IE9+ support SVG 1.1 version
+		root.setAttribute("baseProfile", "tiny");
+		root.setAttribute("width","800");
+		root.setAttribute("height","400");
+		document.querySelector('#view').appendChild(root);
+		
+		var g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+		g.setAttribute("type", "rect");
+		root.appendChild(g);
+		
+		var c1 = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+		c1.setAttribute("x","0");
+		c1.setAttribute("y","0");
+		c1.setAttribute("width","800");
+		c1.setAttribute("height","400");
+		c1.setAttribute("fill", "#2E52C2");
+		g.appendChild(c1);
+		
+		var c2 = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+		c2.setAttribute("x","10");
+		c2.setAttribute("y","10");
+		c2.setAttribute("width","780");
+		c2.setAttribute("height","380");
+		c2.setAttribute("fill", "none");
+		c2.setAttribute("stroke","#ffffff");
+		c2.setAttribute("stroke-width","4");
+		g.appendChild(c2);
+		
+		
+		var stext = document.createElementNS("http://www.w3.org/2000/svg", "text");
+		stext.setAttribute("x","100");
+		stext.setAttribute("y","100");
+		stext.setAttribute("font-size", "18px");
+		stext.setAttribute("fill", "#FF0000");
+
+		var textString = document.createTextNode("Hello SVG");
+		stext.appendChild(textString);
+		root.appendChild(stext);
+		
+	</script>
+
+</body>
+
+</html>
+    
+

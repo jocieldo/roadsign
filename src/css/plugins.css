@@ -1,0 +1,70 @@
+.plugin-tool-panel{margin-top: 5px; margin-bottom: 5px;}
+.plugin-tool-panel .panel-head{
+	position: relative; background: #FCCBCB; text-indent: 10px;
+	height: 25px; line-height: 25px;
+}
+.plugin-tool-panel .panel-head .fold{position: absolute; right: 10px; top:0px; cursor: pointer;}
+.plugin-tool-panel .panel-body{
+	background: #fff; padding: 10px;
+	position: relative;
+}
+
+/*-----------------------*/
+.plugin-element-item{
+	display: inline-block; cursor: pointer; border: 1px #ccc solid; background: #f0f0f0;
+	text-align: center; border-radius: 4px; margin-bottom: 4px;  vertical-align: middle;
+}
+.plugin-element-item:hover{
+	border: 1px #EC6A6A solid; 
+}
+.plugin-element-item.active{
+	border: 1px #F00 solid;  background: #EC6A6A;
+}
+.plugin-element-item .i-text{position: relative;}
+.plugin-element-item .i-text:after{content: "T"; font-size: 36px;  font-weight: bolder; 
+	position: absolute; top:5px; left:10px; font-family: "-webkit-pictograph"; 
+}
+.plugin-element-item .i-blue-panel{
+	display: inline-block; width: 100px; height: 69px;
+	background: url(../images/blue-panel.png);
+}
+.plugin-element-item .i-green-panel{
+	display: inline-block; width: 100px; height: 69px;
+	background: url(../images/green-panel.png);
+}
+
+
+.plugin-modal-dialog{
+    position: fixed; left: 0; top: 0;
+    width: 100%; height: 100%; z-index: 200;
+}
+.plugin-modal-dialog .mask{
+    position: fixed; left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: #aaa; opacity: 0.8; 
+    filter:alpha(opacity=80); _filter:alpha(opacity=80);
+    z-index: 201;
+}
+.plugin-modal-dialog .dialog{
+    position: fixed; left: 0; top: 0;
+    min-width: 200px; min-height: 100px;
+    background-color: #fff;
+    border:#ccc 1px solid;
+    z-index: 202;
+}
+.plugin-modal-dialog .dialog .modal-head{
+    height: 35px; line-height: 35px; position: relative; 
+    border-bottom:#ccc 1px solid;
+}
+.plugin-modal-dialog .dialog .modal-head .title{
+    padding-left: 10px; padding-right: 40px; font-size: 16px;
+}
+.plugin-modal-dialog .dialog .modal-head .close-button{
+    position: absolute; right: 10px; top: 0px; font-size: 26px; cursor: pointer;
+}
+.plugin-modal-dialog .plugin-confirm-button-area{
+    text-align: center; padding: 10px;
+}
+.plugin-modal-dialog .plugin-confirm-button-area a{
+    cursor: pointer; margin-right: 5px;
+}

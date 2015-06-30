@@ -1,0 +1,97 @@
+<div class="order-template">
+	<div class="row">
+		<div class="col-1"><span class="num">1</span></div>
+		<div class="col-10">距离</div>
+	</div>
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-10">
+			<input class="distance" type="range" min="0" max="20" step="1" value="1"/>
+			<span class="distance-text">1</span>公里
+			<br>
+			<br>
+			<br>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-1"><span class="num">2</span></div>
+		<div class="col-10">人数</div>
+	</div>
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-10">
+			<a class="number-minus">－</a>
+			<input class="peple number" type="text" readonly="true" min="1" value="1"/>
+			<a class="number-plus">+</a> 人
+			<br>
+			<br>
+			<br>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-1"><span class="num">3</span></div>
+		<div class="col-10">人均消费</div>
+	</div>
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-10">
+			<input class="price" type="range" min="0" max="500" step="50" value="50"/>
+			<span class="price-text">50</span>元
+			<br>
+			<br>
+			<br>
+			<br>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-10">
+			<button id="orderOk" class="btn-primary">确定</button>
+			<button id="orderCancel" class="btn-default">返回</button>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+	$('.distance').on('change', function (e) {
+		if($(this).val() != 0){
+			$('.distance-text').text($(this).val());
+		} else {
+			$('.distance-text').text("不限");
+		}
+	});
+
+	$('.price').on('change', function (e) {
+		if($(this).val() != 0){
+			$('.price-text').text($(this).val());
+		} else {
+			$('.price-text').text("不限");
+		}
+	});
+
+	$('.number-minus').on('click', function (e) {
+		var v = $('.number').val();
+		--v;
+		var min = $('.number').attr('min') - 0;
+		if(v < min){
+			$('.number').val(min);
+		} else {
+			$('.number').val(v);
+		}
+		e.preventDefault();
+		e.stopPropagation();
+	});
+
+	$('.number-plus').on('click', function (e) {
+		var v = $('.number').val();
+		++v;
+		$('.number').val(v);
+		e.preventDefault();
+		e.stopPropagation();
+	});
+</script>

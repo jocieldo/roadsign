@@ -1,0 +1,25 @@
+{
+	"base": "./src",
+	"output": "./static",
+	"rules": {
+		"js": {
+			"compile": true,
+			"uglify": false,
+			"compress": true,
+			"module": false,
+			"copy": true
+		},
+		"css": {
+			"copy": true
+		},
+		"image": {
+			"copy": true
+		},
+		"html": {
+			"copy": true
+		},
+		"font": {
+			"copy": true
+		}
+	}
+}

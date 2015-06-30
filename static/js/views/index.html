@@ -1,0 +1,36 @@
+<div class="app-box container">
+	<div class="header">
+		<span class="logo">Road Sign Editor</span>
+		<div class="menu">
+			<a class="upfile icon-folder-open2">
+				<input id="openFile" type="file"/>打开
+			</a>
+			<span><i class="icon-undo2"></i></span>
+			<span><i class="icon-redo2"></i></span>
+			<span id="json-data"><i class="icon-embed2"></i>json</span>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-9 playground">
+			<div id="editor">
+				<?xml version="1.0" encoding="utf-8"?>
+				<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+				<svg id="root" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512px" height="256px" viewBox="0 0 512 256">
+
+				</svg>
+			</div>
+
+			<div id="toolbar"></div>
+			<div id="curTarget"></div>
+		</div>
+		<div class="col-3 func-area">
+			<div id="layer1"></div>
+			<div id="propPanel"></div>
+			<div id="component1"></div>
+			<div id="comPanel"></div>
+			<div id="component3"></div>
+		</div>
+	</div>
+
+</div>
