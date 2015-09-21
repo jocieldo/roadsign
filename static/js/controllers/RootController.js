@@ -1,0 +1,3 @@
+app.controller("RootController", function () {
+
+});
